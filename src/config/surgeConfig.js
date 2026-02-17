@@ -6,10 +6,10 @@
 export const SURGE_CONFIG = {
 	'general': {
 		'allow-wifi-access': false,
-		'wifi-access-http-port': 6152,
-		'wifi-access-socks5-port': 6153,
-		'http-listen': '127.0.0.1:6152',
-		'socks5-listen': '127.0.0.1:6153',
+		'wifi-access-http-port': 1080,
+		'wifi-access-socks5-port': 1081,
+		'http-listen': '0.0.0.0:1080',
+		'socks5-listen': '0.0.0.0:1081',
 		'allow-hotspot-access': false,
 		'skip-proxy': '127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,*.crashlytics.com,seed-sequoia.siri.apple.com,sequoia.apple.com',
 		'test-timeout': 5,
