@@ -16,7 +16,7 @@ export const SURGE_CONFIG = {
 		'proxy-test-url': 'http://cp.cloudflare.com/generate_204',
 		'internet-test-url': 'http://www.apple.com/library/test/success.html',
 		'geoip-maxmind-url': 'https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb',
-		'ipv6': false,
+		'ipv6': true,
 		'show-error-page-for-reject': true,
 		'dns-server': '119.29.29.29, 180.184.1.1, 223.5.5.5, system',
 		'encrypted-dns-server': 'https://223.5.5.5/dns-query',
